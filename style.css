@@ -1,1 +1,23 @@
 /* Your CSS styles go here */
+body {
+    background-color:aliceblue ;
+    margin : 1em;
+    max-width:50 em; 
+}
+
+.container{
+    background-color:yellowgreen ;
+    padding-top:10%;
+    line-height:1;
+    border-style: solid;
+    border-spacing: 0cm;
+    border-width: small;
+    
+ 
+}
+.contact{
+    border-style: solid;
+    border-width: small;
+    border-spacing: 0cm;
+     background-color: yellowgreen; 
+}

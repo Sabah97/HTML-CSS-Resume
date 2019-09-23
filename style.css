@@ -1,1 +1,14 @@
 /* Your CSS styles go here */
+
+body {
+    background-color: silver;
+    /* margin : 1em;
+    max-width:50 em; */
+}
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+

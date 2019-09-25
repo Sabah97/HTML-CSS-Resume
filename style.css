@@ -1,1 +1,47 @@
 /* Your CSS styles go here */
+body {
+    background-color:aliceblue ;
+    margin : 1em;
+    max-width:50 em; 
+}
+
+.container{
+    background-color:yellowgreen ;
+    padding-top:10%;
+    line-height:1;
+    border-style: solid;
+    border-spacing: 0cm;
+    border-width: small;
+    
+ 
+}
+
+
+
+
+.contact{
+    border-style: solid;
+    border-width: small;
+    border-spacing: 0cm;
+     background-color: yellowgreen; 
+     padding-left: 25%;
+     padding-right: 25%;
+}
+
+@media (max-width: 575px) {
+    .container
+    {
+        width: 25%;
+        font-size: 32px;
+        height: 25%;
+    }
+  
+    }
+    @media(min-width: 375px){
+        .contact{
+            width:50%;
+            font-size: 0.5px;
+
+        }
+    
+    }
